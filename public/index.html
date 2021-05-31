@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Rajdhani:wght@600&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Bait Bots</title>
+</head>
+<body>
+
+
+  <div class="img1 parallax">
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">{<h1 class="bait">bait</h1><em>bots}</em></a></li>
+        <li class="nav-item"><a href="#code">CODE</a></li>
+        <li class="nav-item"><a href="#about">MY STORY</a></li>
+        <li class="nav-item"><a href="#contact">CONTACT</a></li>
+        <li class="nav-item"><input type="button" value="Download Resume" onclick="window.open('AlyssaKlepperRes.pdf');" size="20"
+          class="button" />
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="img2 img-utility parallax">
+    <div id="code">
+      <span>CODE</span>
+    </div>
+  </div>
+
+  <div class="img3 img-utility parallax">
+    <div id="about">
+      <span>MY STORY</span>
+    </div>
+  </div>
+
+
+  <div class="img4 img-utility parallax">
+    <div id="contact">
+        <span>CONTACT</span>
+    </div>
+    <div class="form-container" >
+      <div>
+          <input type="button" value="Download Resume" onclick="window.open('AlyssaKlepperRes.pdf');" size="20" class="newButton" />
+      </div>
+      <form
+        id="contact-form"
+        method="POST"
+        action="send"
+        enctype="multipart/form-data"
+      >
+        <label for="user-name">Name</label>
+        <input
+          required
+          name="name"
+          type="text"
+          id="user-name"
+          placeholder="Please enter your fullname"
+        >
+        <label for="user-email">Email</label>
+        <input
+          required
+          name="email"
+          type="email"
+          id="user-email"
+          placeholder="Please enter your email">
+        <label for="user-message">Message</label>
+        <textarea
+          required
+          rows="5"
+          name="message"
+          id="user-message"
+          placeholder="Enter your message">
+        </textarea>
+        <div class="form-actions">
+          <button
+            type="submit"
+            value="submit"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="img5 parallax">
+    <div class="social-media">
+      <a href="https://www.facebook.com/aly.klepper.5" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></i></a>
+      <a href="https://www.linkedin.com/in/aly-klepper-579b66132/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
+    </div>
+    <div class="footer">
+      &copy 2021 Bait<em>bots</em>.
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
