@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Rajdhani:wght@600&display=swap"
       rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./css-queries.css">
   <title>Bait Bots</title>
 </head>
 <body>
@@ -22,12 +23,17 @@
         <li class="nav-item"><a href="#">{<h1 class="bait">bait</h1><em>bots}</em></a></li>
         <li class="nav-item"><a href="#code">CODE</a></li>
         <li class="nav-item"><a href="#about">MY STORY</a></li>
-        <li class="nav-item"><a href="#contact">CONTACT</a></li>
+        <li class="nav-item"><a href="#references">REFERENCES</a></li>
         <li class="nav-item"><input type="button" value="Download Resume" onclick="window.open('AlyssaKlepperRes.pdf');" size="20"
           class="button" />
         </li>
       </ul>
     </nav>
+    <div class="bait-container">
+      <div class="bait-card">
+
+      </div>
+    </div>
   </div>
 
   <div class="img2 img-utility parallax">
@@ -44,20 +50,40 @@
 
 
   <div class="img4 img-utility parallax">
-    <div id="contact">
-        <span>CONTACT</span>
+    <div id="references">
+        <span>REFERENCES</span>
     </div>
     <div class="form-container" >
-      <div>
-          <input type="button" value="Download Resume" onclick="window.open('AlyssaKlepperRes.pdf');" size="20" class="newButton" />
+
+      <div class="reference-container">
+        <div class="reference-card">
+          <h3 class="reference-name">B. Stone</h3>
+          <h4 class="reference-years">Years Known: 17 years</h4>
+          <h5 class="reference-contact">
+            Foothill Knolls<br>
+          <p class="reference-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis mollitia itaque obcaecati ducimus doloremque ad hic velit quas vitae!
+          </p>
+           Please contact for reference infomation
+          </h5>
+
+        </div>
+        <div class="reference-card">
+
+        </div>
+        <div class="reference-card">
+
+        </div>
       </div>
+
       <form
         id="contact-form"
         method="POST"
         action="send"
         enctype="multipart/form-data"
       >
-        <label for="user-name">Name</label>
+      <h3 class="get-connected">Let's get Connected</h3>
+        <label for="user-name">Name:</label>
         <input
           required
           name="name"
@@ -65,14 +91,14 @@
           id="user-name"
           placeholder="Please enter your fullname"
         >
-        <label for="user-email">Email</label>
+        <label for="user-email">Email:</label>
         <input
           required
           name="email"
           type="email"
           id="user-email"
           placeholder="Please enter your email">
-        <label for="user-message">Message</label>
+        <label for="user-message">Message:</label>
         <textarea
           required
           rows="5"
