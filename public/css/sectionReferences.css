@@ -1,0 +1,88 @@
+.img4 {
+  background-image: url('../img/cloud.jpg');
+  background-position: 50% 70%;
+  max-height: 50%;
+}
+
+button {
+  color: white;
+  font-family: 'Manjari', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 8px;
+  text-align: center;
+  background-color: black;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+h3,
+h4,
+h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 8px;
+}
+
+.reference-paragraph,
+.reference-email,
+.reference-number {
+  padding-left: 5px;
+}
+
+.reference-paragraph {
+  padding-bottom: 8px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.reference-container {
+  display: flex;
+}
+
+.reference-card {
+  width: 270px;
+  height: 375px;
+  background-color: whitesmoke;
+  margin: 12px;
+  border-radius: 0.2rem;
+}
+
+#contact-form {
+  color: black;
+  background-color: whitesmoke;
+  width: 270px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+}
+
+.get-connected {
+  text-align: center;
+}
+
+input,
+textarea {
+  border-radius: 0.2rem;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.form-actions {
+  text-align: center;
+}

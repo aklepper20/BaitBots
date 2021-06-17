@@ -32,69 +32,11 @@ html {
   font-weight: 800;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
-
-
-.img3 {
-  background-image: url('./img/gradient.jpg');
-  min-height: 80%;
-}
-
-.img4 {
-  background-image: url('./img/cloud.jpg');
-  background-position: 50% 70%;
-  min-height: 50%;
-}
-
 .img5 {
   background-color: #F59BC1;
   min-height: 20%;
 }
 
-.form-container {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.reference-container {
-  display: flex;
-  margin-left: 4rem;
-}
-
-.reference-card {
-  width: 240px;
-  height: 350px;
-  background-color: #FFF9F9;
-  margin: 4px;
-}
-
-.reference-name {
-  margin: 4px;
-  padding: 0;
-  text-align: center;
-}
-
-.reference-years {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.reference-contact {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-}
-
-.ref-email {
-  color: blue;
-}
 
 #contact-form {
   color: black;
