@@ -1,11 +1,11 @@
 .img4 {
   background-image: url('../img/cloud.jpg');
   background-position: 50% 70%;
-  max-height: 55%;
+  max-height: 60%;
 }
 
 button {
-  color: white;
+  color: #f3f3f3;
   font-family: 'Manjari', sans-serif;
   font-size: 15px;
   font-weight: bolder;
@@ -53,12 +53,13 @@ h3 {
 
 .reference-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .reference-card {
   width: 270px;
   height: 375px;
-  background-color: whitesmoke;
+  background-color: #f3f3f3;
   margin: 12px;
   border-radius: 0.2rem;
 }
@@ -67,7 +68,7 @@ h3 {
   display: flex;
   flex-direction: column;
   color: black;
-  background-color: whitesmoke;
+  background-color: #f3f3f3;
   width: 290px;
   height: 370px;
   padding: 8px;
@@ -88,4 +89,22 @@ textarea {
 .form-actions {
   text-align: center;
   margin-top: 16px;
+}
+
+@media screen and (min-width: 480px) {
+  * {
+    justify-content: center;
+  }
+
+  .fullbody-robot-img {
+    max-width: 50%;
+  }
+
+  .my-story-card {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
 }

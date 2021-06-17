@@ -28,7 +28,7 @@
 .button {
   font-family: 'Manjari', sans-serif;
   font-size: 1.2rem;
-  color: white;
+  color: #f3f3f3;
   background-color: black;
   font-weight: 800;
   border-radius: .2rem;
@@ -48,4 +48,8 @@
 .bait-image {
   max-width: 400px;
   height: 300px;
+}
+
+@media screen and (min-width: 480px) {
+
 }
