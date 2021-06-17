@@ -6,14 +6,14 @@ require("dotenv").config();
 
 const PORT = process.env.PORT || 5000;
 
-// instantiate an express app
+
 const app = express();
-// cors
+
 app.use(cors({ origin: "*" }));
 
 app.get('/', (req, res) => {
-   res.sendFile(__dirname + '/public/index.html')
- })
+ res.sendFile(__dirname + '/public/index.html')
+})
 
 const transporter = nodemailer.createTransport({
   service: "gmail",

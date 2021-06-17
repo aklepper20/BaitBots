@@ -1,0 +1,50 @@
+.img1 {
+  background-color: #F59BC1;
+}
+
+.bait-logo {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+.nav-list {
+  margin: 0;
+	padding: 20px 10px;
+	display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  font-weight: 700;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #F59BC1;
+}
+
+.button {
+  font-family: 'Manjari', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  background-color: black;
+  font-weight: 800;
+}
+
+.bait-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bait-image {
+  max-width: 400px;
+  height: 300px;
+}
