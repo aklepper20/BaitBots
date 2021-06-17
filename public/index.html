@@ -15,157 +15,160 @@
   <link rel="stylesheet" href="./css/sectionCode.css">
   <link rel="stylesheet" href="./css/sectionMyStory.css">
   <link rel="stylesheet" href="./css/sectionReferences.css">
+  <link rel="stylesheet" href="./css/sectionFooter.css">
   <title>Bait Bots</title>
 </head>
 <body>
   <div>
     <div class="img1 img-utility parallax">
-        <div class="nav-list">
-          <div
-            class="nav-item">
-            {<h1 class="bait-logo">bait</h1><em>bots}</em>
-          </div>
-          <div class="nav-item">
-            <input
-              class="button"
-              type="button"
-              value="RESUME"
-              onclick="window.open('AlyssaKlepperRes.pdf');" size="20"
-            />
-          </div>
+      <div class="nav-list">
+        <div
+          class="nav-item">
+          {<h1 class="bait-logo">bait</h1><em>bots}</em>
+        </div>
+        <div class="nav-item">
+          <input
+            class="button"
+            type="button"
+            value="RESUME"
+            onclick="window.open('AlyssaKlepperRes.pdf');" size="20"
+          />
+        </div>
+  </div>
+  <div class="bait-image-container">
+    <div class="bait-image">
+      This is the header image
     </div>
-    <div class="bait-image-container">
-      <div class="bait-image">
-        This is the header image
+  </div>
+</div>
+<div class="img2 img-utility parallax">
+  <div class="section-headers">
+    <div class="code">CODE</div>
+  </div>
+  <div class="project-container">
+      <div class="project-card">
+        project1
+      </div>
+      <div class="project-card">
+        project1
+      </div>
+      <div class="project-card">
+        project1
+    </div>
+  </div>
+</div>
+<div class="img3 img-utility parallax">
+  <div class="section-headers">
+    <span>MY STORY</span>
+  </div>
+  <div class="my-story-container">
+    <img class="fullbody-robot-img" src=".\img\fullbody-robot-img.png"
+      alt="Aly is half robot and half human, symbolizing her inner stength and individualism from having cerebral palsy"
+    />
+    <div class="my-story-card">
+      <p class="my-story-text">hi this is my story</p>
+    </div>
+  </div>
+</div>
+<div class="img4 img-utility parallax">
+  <div class="section-headers">
+      <span>REFERENCES</span>
+  </div>
+  <div class="form-container" >
+    <div class="reference-container">
+      <div class="reference-card">
+        <h3>Beth Stone</h3>
+        <h4>Years Known: 17</h4>
+        <h5>
+          Foothill Knolls</h5>
+        <p class="reference-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis mollitia itaque obcaecati ducimus doloremque ad hic velit quas vitae!
+        </p>
+        <p class="reference-email">email</p>
+        <p class="reference-number">phone number</p>
+      </div>
+      <div class="reference-card">
+        <h3>Beth Stone</h3>
+        <h4>Years Known: 17</h4>
+        <h5>
+          Foothill Knolls</h5>
+        <p class="reference-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis mollitia itaque obcaecati ducimus
+          doloremque ad hic velit quas vitae!
+        </p>
+        <p class="reference-email">email</p>
+        <p class="reference-number">phone number</p>
+      </div>
+      <div class="reference-card">
+        <h3>Beth Stone</h3>
+        <h4>Years Known: 17</h4>
+        <h5>Foothill Knolls</h5>
+        <p class="reference-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis mollitia itaque obcaecati ducimus
+          doloremque ad hic velit quas vitae!
+        </p>
+        <p class="reference-email">email</p>
+        <p class="reference-number">phone number</p>
       </div>
     </div>
-  </div>
-  <div class="img2 img-utility parallax">
-    <div class="section-headers">
-      <div class="code">CODE</div>
-    </div>
-    <div class="project-container">
-        <div class="project-card">
-          project1
-        </div>
-        <div class="project-card">
-          project1
-        </div>
-        <div class="project-card">
-          project1
+    <form
+      id="contact-form"
+      method="POST"
+      action="send"
+      enctype="multipart/form-data"
+    >
+    <h3 class="get-connected">Let's get Connected</h3>
+      <label for="user-name">Name:</label>
+      <input
+        required
+        name="name"
+        type="text"
+        id="user-name"
+        placeholder="Please enter your fullname">
+      <label for="user-email">Email:</label>
+      <input
+        required
+        name="email"
+        type="email"
+        id="user-email"
+        placeholder="Please enter your email">
+      <label for="user-message">Message:</label>
+      <textarea
+        required
+        rows="5"
+        name="message"
+        id="user-message">
+      </textarea>
+      <div class="form-actions">
+        <button
+          type="submit"
+          value="submit">
+          SUBMIT
+        </button>
       </div>
+    </form>
+  </div>
+</div>
+<div class="img5 parallax">
+  <div class="social-media">
+    <div class="link">
+      <p>Link to my Facebook:</p>
+      <a href="https://www.facebook.com/aly.klepper.5" target="_blank">
+        <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="link">
+      <p>Link to my LinkedIn:</p>
+      <a href="https://www.linkedin.com/in/aly-klepper-579b66132/" target="_blank">
+        <i class="fab fa-linkedin-in fa-3x" aria-hidden="true"></i>
+      </a>
     </div>
   </div>
-  <div class="img3 img-utility parallax">
-    <div class="section-headers">
-      <span>MY STORY</span>
-    </div>
-    <div class="my-story-container">
-      <img class="fullbody-robot-img" src=".\img\fullbody-robot-img.png"
-        alt="Aly is half robot and half human, symbolizing her inner stength and individualism from having cerebral palsy"
-      />
-      <div class="my-story-card">
-        <p class="my-story-text">hi this is my story</p>
-      </div>
-    </div>
+  <div class="footer">
+    <div>&copy 2021 Bait <em>bots</em></div>
+    <div>Photoshop: sami_khan12 &</div>
   </div>
-
-
-  <div class="img4 img-utility parallax">
-    <div class="section-headers">
-        <span>REFERENCES</span>
-    </div>
-
-
-    <div class="form-container" >
-
-      <div class="reference-container">
-        <div class="reference-card">
-          <h3>Beth Stone</h3>
-          <h4>Years Known: 17</h4>
-          <h5>
-            Foothill Knolls</h5>
-          <p class="reference-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis mollitia itaque obcaecati ducimus doloremque ad hic velit quas vitae!
-          </p>
-          <p class="reference-email">email</p>
-          <p class="reference-number">phone number</p>
-        </div>
-
-        <div class="reference-card">
-          <h3>Beth Stone</h3>
-          <h4>Years Known: 17</h4>
-          <h5>
-            Foothill Knolls</h5>
-          <p class="reference-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis mollitia itaque obcaecati ducimus
-            doloremque ad hic velit quas vitae!
-          </p>
-          <p class="reference-email">email</p>
-          <p class="reference-number">phone number</p>
-        </div>
-        <div class="reference-card">
-          <h3>Beth Stone</h3>
-          <h4>Years Known: 17</h4>
-          <h5>
-            Foothill Knolls</h5>
-          <p class="reference-paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis debitis mollitia itaque obcaecati ducimus
-            doloremque ad hic velit quas vitae!
-          </p>
-          <p class="reference-email">email</p>
-          <p class="reference-number">phone number</p>
-        </div>
-      </div>
-      <form
-        id="contact-form"
-        method="POST"
-        action="send"
-        enctype="multipart/form-data"
-      >
-      <h3 class="get-connected">Let's get Connected</h3>
-        <label for="user-name">Name:</label>
-        <input
-          required
-          name="name"
-          type="text"
-          id="user-name"
-          placeholder="Please enter your fullname">
-        <label for="user-email">Email:</label>
-        <input
-          required
-          name="email"
-          type="email"
-          id="user-email"
-          placeholder="Please enter your email">
-        <label for="user-message">Message:</label>
-        <textarea
-          required
-          rows="5"
-          name="message"
-          id="user-message">
-        </textarea>
-        <div class="form-actions">
-          <button
-            type="submit"
-            value="submit">
-            SUBMIT
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <div class="img5 parallax">
-    <div class="social-media">
-      <a href="https://www.facebook.com/aly.klepper.5" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></i></a>
-      <a href="https://www.linkedin.com/in/aly-klepper-579b66132/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
-    </div>
-    <div class="footer">
-      &copy 2021 Bait<em>bots</em>.
-    </div>
-  </div>
-
-  <script src="main.js"></script>
+</div>
+<script src="main.js"></script>
 </body>
 </html>

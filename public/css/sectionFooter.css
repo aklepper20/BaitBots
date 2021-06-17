@@ -1,0 +1,29 @@
+.img5 {
+  background-color: #F59BC1;
+  max-height: 30%;
+}
+
+.social-media {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin: 20px;
+  font-weight: 800;
+}
+
+.fab {
+  margin: 8px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

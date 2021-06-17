@@ -1,6 +1,10 @@
 .img2 {
   background-image: url('../img/blue-splash.jpg');
-  height: 50%;
+  height: 60%;
+}
+
+a {
+  color: black;
 }
 
 .project-container {
