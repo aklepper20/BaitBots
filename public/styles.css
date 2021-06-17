@@ -12,37 +12,6 @@ html {
   line-height: 1.8em;
 }
 
-span {
-  font-size: 25px;
-  border-radius: .3rem;
-  background-color: black;
-  padding: 10px;
-  margin-left: 8px;
-  margin-top: 40px;
-  color: whitesmoke;
-  font-weight: 800;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-button {
-  font-weight: 700;
-  padding: 8px 10px;
-  background-color: whitesmoke;
-  border: 1px solid black;
-  border-radius: .3rem;
-  transition: .3s;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: #F59BC1;
-}
-
-
 .img-utility {
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,15 +22,22 @@ button:hover {
   background-attachment: fixed;
 }
 
-/* img {
-  width: 100%;
-} */
-
-
-.img2 {
-  background-image: url('./img/blue-splash.jpg');
-  min-height: 50%;
+.section-headers {
+  max-width: fit-content;
+  font-size: 25px;
+  border-radius: .2rem;
+  background-color: black;
+  padding: 10px;
+  color: whitesmoke;
+  font-weight: 800;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
 
 .img3 {
   background-image: url('./img/gradient.jpg');
@@ -166,13 +142,7 @@ textarea {
 }
 
 @media screen and (min-width: 480px) {
-  body {
-    border: 5px solid black;
-    background-color: lightgreen;
-  }
-  .footer {
-    border: 5px solid black !important;
-  }
+
 }
 
 @media screen and (max-width: 650px) {

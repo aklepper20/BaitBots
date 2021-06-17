@@ -1,0 +1,23 @@
+.my-story-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.my-story-card {
+  width: 500px;
+  height: 500px;
+  background-color: whitesmoke;
+  border-radius: .2rem;
+  margin-right: 50px;
+}
+
+.my-story-text {
+  font-weight: bolder;
+}
+
+.fullbody-robot-img {
+  max-width: 30%;
+
+  padding-bottom: 30px;
+}
