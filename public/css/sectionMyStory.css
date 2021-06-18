@@ -1,6 +1,6 @@
 .img3 {
   background-image: url('../img/gradient.jpg');
-  min-height: 80%;
+  min-height: 70%;
 }
 
 .my-story-container {
@@ -24,7 +24,7 @@
 }
 
 .fullbody-robot-img {
-  max-width: 30%;
+  max-width: 33%;
   margin-bottom: 15px;
   padding-bottom: 30px;
 }
