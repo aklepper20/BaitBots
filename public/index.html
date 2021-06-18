@@ -114,65 +114,53 @@
         </p>
         <p class="reference-email">earcommunity@gmail.com</p>
         <p class="reference-number">303 646 7126</p>
+        <a href="https://www.congress.gov/bill/117th-congress/house-bill/477?s=1&r=5" target="_blank"></a>
       </div>
     </div>
-    <form
-      id="contact-form"
-      method="POST"
-      action="send"
-      enctype="multipart/form-data"
-    >
-    <h3 class="get-connected">Let's get Connected</h3>
-      <label for="user-name">Name:</label>
-      <input
-        required
-        name="name"
-        type="text"
-        id="user-name"
-        placeholder="Please enter your fullname">
-      <label for="user-email">Email:</label>
-      <input
-        required
-        name="email"
-        type="email"
-        id="user-email"
-        placeholder="Please enter your email">
-      <label for="user-message">Message:</label>
-      <textarea
-        required
-        rows="5"
-        name="message"
-        id="user-message">
-      </textarea>
-      <div class="form-actions">
-        <button
-          type="submit"
-          value="submit">
-          SUBMIT
-        </button>
-      </div>
-    </form>
   </div>
 </div>
 <div class="img5 parallax">
-  <div class="social-media">
-    <div class="link">
-      <p>Link to my Facebook:</p>
-      <a href="https://www.facebook.com/aly.klepper.5" target="_blank">
-        <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
-      </a>
-    </div>
-    <div class="link">
-      <p>Link to my LinkedIn:</p>
-      <a href="https://www.linkedin.com/in/aly-klepper-579b66132/" target="_blank">
-        <i class="fab fa-linkedin-in fa-3x" aria-hidden="true"></i>
-      </a>
+  <div class="form-container">
+      <form id="contact-form" method="POST" action="send" enctype="multipart/form-data">
+        <h3 class="get-connected">Let's get Connected</h3>
+        <div class="contact-details1">
+          <label for="user-name">Name:</label>
+          <input required name="name" type="text" id="user-name" placeholder="Please enter your fullname">
+          <label for="user-email">Email:</label>
+          <input required name="email" type="email" id="user-email" placeholder="Please enter your email">
+        </div>
+        <div class="contact-details2">
+          <div class="textarea-wrap">
+            <label for="user-message">Message:</label>
+            <textarea required rows="5" name="message" id="user-message"></textarea>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" value="submit">
+            SUBMIT
+          </button>
+        </div>
+      </form>
+    <div class="social-media">
+      <div class="link">
+        <p>Link to my Facebook:</p>
+        <a href="https://www.facebook.com/aly.klepper.5" target="_blank">
+          <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="link">
+        <p>Link to my LinkedIn:</p>
+        <a href="https://www.linkedin.com/in/aly-klepper-579b66132/" target="_blank">
+          <i class="fab fa-linkedin-in fa-3x" aria-hidden="true"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="footer">
     <div>&copy 2021 Bait <em>bots</em></div>
     <div>Photoshop: sami_khan12 &</div>
   </div>
+
 </div>
 <script src="main.js"></script>
 </body>

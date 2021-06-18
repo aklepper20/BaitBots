@@ -1,6 +1,75 @@
 .img5 {
   background-color: #F59BC1;
-  max-height: 30%;
+  max-height: 40%;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: black;
+  background-color: #f3f3f3;
+  width: 520px;
+  height: 210px;
+  margin-top: 12px;
+  border-radius: 0.2rem;
+}
+
+.contact-details1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.contact-details2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.textarea-wrap {
+  display: flex;
+}
+
+.get-connected {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#user-name,
+#user-email,
+#user-message {
+  margin-left: 8px;
+}
+
+#user-name {
+  margin-right: 8px;
+}
+
+#user-message {
+  width: 300px;
+}
+
+input,
+textarea {
+  font-size: 12px;
+  border-radius: 0.2rem;
+  padding: 8px;
+  border: 1px solid black;
+  background-color: #f1f1f1;
+}
+
+textarea {
+   padding-top: 0;
+   padding-left: 0;
+}
+
+.form-actions {
+  text-align: center;
+  margin-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .social-media {
