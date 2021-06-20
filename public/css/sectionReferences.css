@@ -60,11 +60,6 @@ h3 {
   flex-wrap: wrap;
 }
 
-.reference-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .reference-card {
   line-height: normal;
   width: 380px;
