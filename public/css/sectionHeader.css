@@ -2,6 +2,10 @@
   background-color: #F59BC1;
 }
 
+img {
+  width: 100%;
+}
+
 .bait-logo {
   display: inline-block;
   margin: 5px;
@@ -46,8 +50,9 @@
 }
 
 .bait-image {
-  max-width: 400px;
-  height: 300px;
+  max-width: 50%;
+  transform: rotate(10deg);
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 480px) {
