@@ -39,6 +39,10 @@ img {
   color: #F59BC1;
 }
 
+.bait-image-container {
+  margin: 0;
+}
+
 .bait-image {
   max-width: 45%;
   transform: rotate(10deg);
