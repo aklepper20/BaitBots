@@ -43,14 +43,8 @@ img {
   color: #F59BC1;
 }
 
-.bait-image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .bait-image {
-  max-width: 50%;
+  max-width: 45%;
   transform: rotate(10deg);
   margin-bottom: 20px;
 }

@@ -4,9 +4,6 @@
 }
 
 .my-story-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -27,4 +24,10 @@
   max-width: 33%;
   margin-bottom: 15px;
   padding-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .my-story-card {
+    justify-content: center;
+  }
 }

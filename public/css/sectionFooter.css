@@ -1,6 +1,6 @@
 .img5 {
   background-color: #F59BC1;
-  max-height: 40%;
+  max-height: 50%;
 }
 
 #contact-form {
@@ -10,22 +10,17 @@
   color: black;
   background-color: #f3f3f3;
   width: 520px;
-  height: 210px;
+  height: 290px;
   margin-top: 12px;
   border-radius: 0.2rem;
 }
 
 .contact-details1 {
-  display: flex;
-  flex-wrap: wrap;
   margin-bottom: 12px;
 }
 
 .contact-details2 {
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .textarea-wrap {
@@ -75,9 +70,6 @@ textarea {
 .social-media {
   text-align: center;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .link {
@@ -90,9 +82,24 @@ textarea {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.textarea-label {
+  display: flex;
+
+}
+
+@media screen and (max-width: 480px) {
+  .textarea-wrap {
+    justify-content: center;
+    text-align: center;
+  }
+  .textarea-label {
+     flex-direction: column;
+  }
+  textarea {
+    max-width: 150px;
+  }
 }
