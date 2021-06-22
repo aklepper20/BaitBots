@@ -14,10 +14,6 @@ img {
 
 .nav-list {
 	padding: 15px 15px;
-	display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
-  align-items: center;
 }
 
 .nav-item {
@@ -47,8 +43,4 @@ img {
   max-width: 45%;
   transform: rotate(10deg);
   margin-bottom: 20px;
-}
-
-@media screen and (min-width: 480px) {
-
 }

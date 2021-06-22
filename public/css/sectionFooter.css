@@ -4,9 +4,6 @@
 }
 
 #contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
   color: black;
   background-color: #f3f3f3;
   width: 520px;

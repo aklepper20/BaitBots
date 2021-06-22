@@ -27,3 +27,16 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.display-column-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.display-nav {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: right;
+  align-items: center;
+}
