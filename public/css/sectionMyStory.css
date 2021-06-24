@@ -1,3 +1,9 @@
+h2 {
+  text-align: right;
+  margin: 0;
+  padding-right: 8px;
+}
+
 .img3 {
   background-image: url('../img/gradient.jpg');
   min-height: 70%;
@@ -10,7 +16,7 @@
 .my-story-card {
   max-width: 100%;
   width: 500px;
-  height: 300px;
+  height: 500px;
   background-color: #f3f3f3;
   border-radius: .2rem;
   margin-right: 15px;
