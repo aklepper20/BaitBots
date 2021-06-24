@@ -85,7 +85,14 @@ textarea {
 
 .textarea-label {
   display: flex;
+}
 
+.footer-bait {
+  font-weight: bold;
+}
+
+.ps-sami {
+  font-size: small;
 }
 
 @media screen and (max-width: 480px) {
