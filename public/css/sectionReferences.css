@@ -63,6 +63,15 @@ h3 {
   border-radius: 0.2rem;
 }
 
+.ref-statement {
+  font-size: medium;
+  margin-top: 8px;
+  margin-left: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #f3fef3;
+  max-width: fit-content
+}
 @media screen and (min-width: 480px) {
   * {
     justify-content: center;
