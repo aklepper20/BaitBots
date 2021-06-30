@@ -14,7 +14,7 @@ h2 {
 }
 
 .my-story-card {
-  max-width: 100%;
+  /* max-width: 100%; */
   width: 500px;
   height: 550px;
   background-color: #f3f3f3;
@@ -33,8 +33,8 @@ h2 {
   padding-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .my-story-card {
-    justify-content: center;
+    height: 730px;
   }
 }

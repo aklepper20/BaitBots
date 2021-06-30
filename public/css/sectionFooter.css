@@ -52,8 +52,8 @@ textarea {
 }
 
 textarea {
-   padding-top: 0;
-   padding-left: 0;
+  padding-top: 0;
+  padding-left: 0;
 }
 
 .form-actions {
@@ -99,6 +99,10 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
+  .fullbody-robot-img {
+    max-width: 65%;
+  }
+
   .textarea-wrap {
     justify-content: center;
     text-align: center;
@@ -108,5 +112,18 @@ textarea {
   }
   textarea {
     max-width: 150px;
+  }
+
+  #contact-form {
+    height: 385px;
+  }
+
+  .form-actions {
+    padding-right: 30px;
+  }
+
+  .reference-card {
+    height: 485px;
+    margin-top: 20px;
   }
 }
