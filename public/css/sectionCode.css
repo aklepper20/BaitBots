@@ -27,7 +27,6 @@ a {
 .project-languages,
 #project-btn {
   margin: 0;
-  padding: 0;
 }
 
 .project-title {
@@ -64,8 +63,11 @@ a {
 }
 
 #project-btn {
-  display: block;
   margin-top: 6px;
   padding: 0 4px;
   margin-left: 30%;
+}
+
+.check-in-app {
+  margin-top: 9px;
 }

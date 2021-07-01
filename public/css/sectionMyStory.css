@@ -14,9 +14,9 @@ h2 {
 }
 
 .my-story-card {
-  /* max-width: 100%; */
   width: 500px;
   height: 550px;
+  padding-top: 4px;
   background-color: #f3f3f3;
   border-radius: .2rem;
   margin-right: 15px;
