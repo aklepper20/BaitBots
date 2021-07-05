@@ -69,5 +69,9 @@ a {
 }
 
 .check-in-app {
-  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 34px;
 }
