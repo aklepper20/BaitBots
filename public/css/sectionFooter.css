@@ -41,6 +41,7 @@
 
 #user-message {
   width: 300px;
+  height: 100px;
 }
 
 input,
@@ -108,7 +109,7 @@ textarea {
     text-align: center;
   }
   .textarea-label {
-     flex-direction: column;
+    flex-direction: column;
   }
   textarea {
     max-width: 150px;
